@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-<title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profiles | Web Development Lab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-<h1>Welcome to Web Development!</h1>
-<p>This is my first HTML page.</p>
+
+    <header>
+        <h1>Student Profiles</h1>
+        <p>Web Development Laboratory</p>
+    </header>
+
+    <div class="container">
+        <h2 class="page-title">Our Class Profiles</h2>
+
+        <div class="students-section">
+            <div class="student-profile">
+                <div class="profile-header">
+                    <h3>Computer Science Student</h3>
+                </div>
+                <div class="profile-container">
+                    <div class="profile-pic">
+                        <img src="./assets/images/test.jpg" alt="Msimuko Prince">
+                    </div>
+
+                    <div class="details">
+                        <h2>Msimuko Prince</h2>
+                        <div class="lecturer-card">
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <p><strong>Course:</strong> CSC4631 Web Development</p>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="fas fa-id-card"></i>
+                                <p><strong>Student ID:</strong> 2021524566</p>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <p><strong>Email:</strong> prince.msimuko825@cs.unza.zm</p>
+                            </div>
+                        </div>
+
+                        <div class="lecturer-section">
+                            <h3>Lecturer's Details</h3>
+                            <div class="lecturer-card">
+                                <div class="lecturer-info">
+                                    <i class="fas fa-user-tie"></i>
+                                    <p><strong>Name:</strong> Dr. Zipani Tom Sinkala</p>
+                                </div>
+                                
+                                <div class="lecturer-info">
+                                    <i class="fas fa-envelope"></i>
+                                    <p><strong>Email:</strong> zipani.tomsinkala@cs.unza.zm</p>
+                                </div>
+                                
+                                <div class="lecturer-info">
+                                    <i class="fas fa-clock"></i>
+                                    <p><strong>Office Hours:</strong> Monday - Friday, 9 AM - 12 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-section">
+                    <div class="progress-info">
+                        <span class="progress-title">Course Progress</span>
+                        <span class="progress-percentage">70%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="--progress-width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <p>&copy; 2025 Student Profiles. All Rights Reserved.</p>
+                    
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <span>(+260) 963-285-865</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
