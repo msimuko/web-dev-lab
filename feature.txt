@@ -1,0 +1,3 @@
+In this lab, I learnt how to create an html file and host it.
+I also learnt how to add text and image context to an html file.
+I also learnt how create a new branch, fork and clone a project, as well as make a pull request.
